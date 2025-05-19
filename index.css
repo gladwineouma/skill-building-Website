@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family = Poppins&display=swap');
+
 
 *{
     padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
@@ -85,10 +89,10 @@ height: 40vh;
 .pictures{
   display: flex;
   gap: 3rem;
-  height: 600px;
-  /* flex-wrap: wrap; */
+  height: 35vh;
   align-content: space-evenly;
   margin-top: 3vh;
+  padding-bottom: 15vh;
 }
 .project{
     font-size: 3rex;
