@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family = Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+ul li ul.dropdown{
+    display: block;
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+ul li ul.dropdown{
+    width: 100%;
+    background: gray;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+ul li a:hover{
+    background-color: rgb(252, 253, 253);
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    
+
+    
+
+}
+ul li:hover ul.dropdown{
+    display: block;
+    list-style: none;
+    text-decoration: none;
+
+
+}
+nav{
+    justify-content: flex-end;
+    list-style: none;
+    position: absolute;
+    text-decoration: none;
+    background-color: #0e235e;
+    width: 100%;
+
+
+}
+#image1{
+    width: 100%;
+    height: 80vh;
+    
+}
+.pictures img{
+width: 30vw;
+height: 40vh;
+}
+.pictures{
+  display: flex;
+  gap: 3rem;
+  height: 600px;
+  /* flex-wrap: wrap; */
+  align-content: space-evenly;
+  margin-top: 3vh;
+}
+.project{
+    font-size: 3rex;
+    padding-top: 5%;
+}
+
+
+
+
+
+
+.front-page{
+    /* background-image: url(https://i.pinimg.com/736x/f3/2d/89/f32d89ca80ba9102580037eec2a0430c.jpg); */
+    /* background-image: url('images/image copy 3.png'); */
+    background-size: cover;
+    height: 85vh;
+    filter: brightness(1.1);
+    width: 100%;
+    color: white;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+}
+
+#about{
+    font-size:2rem ;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.about{
+
+    top: 0.5rem;
+    width:50% ;
+    box-shadow: 15px 2px 15px 7px #0e235e;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 20%;
+    
+
+    
+  
+}
+
+.pictures{
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+
+}
+footer{
+    padding-top: 2%;
+    background-color: #0e235e;
+    color: white;
+    height: 20vh;
+    width: 100%;
+    font-size: 1rem;
+    justify-content: space-between;
+    p{
+        text-align: center;
+        position: relative;
+    
+    }
+  
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+   
+}
+#abt{
+    /* color: gray; */
+    font-size: x-large ;
+}
+#location{
+    /* color: grey; */
+    font-size: x-large;
+
+}
+#h1{
+    font-size: 4rem;
+}
