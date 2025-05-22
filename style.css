@@ -1,0 +1,162 @@
+.container{
+    background-color: rgb(253, 253, 206);
+}
+.navbar{
+    background-color: rgb(245, 245, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 5px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navdiv li + li::before{
+    content: "|";
+    padding: 1rem;
+}
+.navdiv button{
+    background-color: rgb(153, 151, 151);
+    color: #FFFFFF;
+    border-color: rgb(153, 151, 151);
+    border-radius: 50px;
+    width: 10vw;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+    color: #000000;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+}
+.join-now{
+    display: flex;
+    border: #15608b 1px solid;
+    margin-top: 70px;
+    width: 80vw;
+    padding: 100px;
+    margin-left: 80px;
+    height: 100vh;
+    box-shadow: rgb(181, 201, 233) 10px 10px inset;
+    gap: 50px;
+    background-color: #FFFFFF;
+}
+.join-now img{
+    height: 90vh;
+}
+.pic{
+    margin-top: 50px;
+}
+.info{
+    border: 1px solid;
+    border-width: 8px;
+    width: 40vw;
+    align-content: center;
+    text-align: center;
+    border-radius: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 50px;
+    font-size: xx-large;
+    height: 60vh;
+    margin-top: 190px;
+}
+.cards{
+    display: flex;
+    gap: 30px;
+    height: 50vh;
+    margin-top: 70px;
+    padding-left: 100px;
+}
+.card{
+    border: 1px solid;
+    width: 20vw;
+    justify-items: center;
+    margin: auto;
+    margin-top: 70px;
+    box-shadow: black 10px 10px;
+    background-color: #FFFFFF;
+}
+.about-game{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    background-image: url(Images/brett-jordan-FD-mDt-wOck-unsplash.jpg);
+    margin-top: 70px;
+    padding: 20px;
+    height: 50vh;
+}
+.about-game h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.game-directions{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.info1{
+    border: 0.5px solid rgb(189, 178, 178);
+    border-radius: 20px 1px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: #FFFFFF;
+    width: 30vw;
+    height: 30vh;
+    margin-top: 20px;
+}
+.info2{
+    border: 0.5px solid rgb(189, 178, 178);
+    border-radius: 20px 1px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: #FFFFFF;
+    width: 30vw;
+    height: 30vh;
+    margin-top: 80px;
+}
+.game-rules{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    gap: 50px;
+}
+.rules{
+    border: 1px solid;
+    width: 25vw;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    padding-left: 10px;
+    padding: 20px;
+    height: 30vh;
+    margin-top: 30px;
+}
+.footer{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.lo-ab{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+}
+.location{
+    margin-top: 20px;
+    padding: 40px;
+    padding-left: 40px;
+}
+.about{
+    margin-top: 20px;
+    padding: 40px; 
+    padding-right: 40px;
+}
+.copyright{
+    text-align: center;
+    padding: 10px;
+}
